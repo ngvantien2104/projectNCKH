@@ -10,5 +10,8 @@ export class HomeComponent {
   public age = 25;
 
 
-
+  public resetName(): void{
+      console.log('resetname');
+      this.name = 'Nguyễn Văn Tiến';
+  }
 }

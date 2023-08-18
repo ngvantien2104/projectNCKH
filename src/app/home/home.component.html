@@ -1,9 +1,7 @@
 <div class="example1">home works!</div>
 <h2>chào các bạn minh tên là {{ name }}</h2>
 <br/>
-<h2 *ngIf="age > 18">bạn đã già !</h2>
-<h2 *ngIf="age <= 18">bạn còn trẻ !</h2>
-
-
+<input type="text" [(ngModel)]="name" />
+<button (click)="resetName()">Reset name</button>
 
 
